@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+echo "Calcular Média e Estado Escolar do Aluno"
+
+scale=3
+
+n1=10.5
+n2=2.3
+
+echo "((n1 / n2))" | bc
+echo "((n1 + n2))" | bc
+

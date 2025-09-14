@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+echo "3 TIPOS DE MÉDIA"
+
+read -p "Nota 1: " nota1
+read -p "Nota 2: " nota2
+read -p "Nota 3: " nota3
+
+media_aritmetica=$(((nota1+nota2+nota3)/3))
+
+#MÉDIAS PONDERADAS:
+media_ponderada1=$(((($nota1*2)+($nota2*2)+($nota3*3))/7))
+media_ponderada2=$(((($nota1*1)+($nota2*2)+($nota3*2))/5))
+
+echo "Média Aritmética: " $media_aritmetica
+echo "Média Ponderada 1: " $media_ponderada1
+echo "Média Ponderada 2: " $media_ponderada2
+
