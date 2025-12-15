@@ -1,0 +1,10 @@
+#!/bin/bash
+read -p "Informe um domínio: " DOMINIO
+echo
+while traceroute -m 20 $DOMINIO
+do
+	echo 
+done
+	echo "Programa finalizado!"
+echo 
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@"
