@@ -1,0 +1,125 @@
+{
+   "lscpu": [
+      {
+         "field": "Arquitetura:",
+         "data": "x86_64"
+      },{
+         "field": "Modo(s) operacional da CPU:",
+         "data": "32-bit, 64-bit"
+      },{
+         "field": "Address sizes:",
+         "data": "39 bits physical, 48 bits virtual"
+      },{
+         "field": "Ordem dos bytes:",
+         "data": "Little Endian"
+      },{
+         "field": "CPU(s):",
+         "data": "2"
+      },{
+         "field": "Lista de CPU(s) on-line:",
+         "data": "0,1"
+      },{
+         "field": "ID de fornecedor:",
+         "data": "GenuineIntel"
+      },{
+         "field": "Nome do modelo:",
+         "data": "Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz"
+      },{
+         "field": "Família da CPU:",
+         "data": "6"
+      },{
+         "field": "Modelo:",
+         "data": "126"
+      },{
+         "field": "Thread(s) per núcleo:",
+         "data": "1"
+      },{
+         "field": "Núcleo(s) por soquete:",
+         "data": "2"
+      },{
+         "field": "Soquete(s):",
+         "data": "1"
+      },{
+         "field": "Step:",
+         "data": "5"
+      },{
+         "field": "BogoMIPS:",
+         "data": "2380,78"
+      },{
+         "field": "Opções:",
+         "data": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase bmi1 avx2 bmi2 invpcid rdseed adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities"
+      },{
+         "field": "Fabricante do hipervisor:",
+         "data": "KVM"
+      },{
+         "field": "Tipo de virtualização:",
+         "data": "completo"
+      },{
+         "field": "cache de L1d:",
+         "data": "96 KiB (2 instances)"
+      },{
+         "field": "cache de L1i:",
+         "data": "64 KiB (2 instances)"
+      },{
+         "field": "cache de L2:",
+         "data": "1 MiB (2 instances)"
+      },{
+         "field": "cache de L3:",
+         "data": "12 MiB (2 instances)"
+      },{
+         "field": "Nó(s) de NUMA:",
+         "data": "1"
+      },{
+         "field": "CPU(s) de nó0 NUMA:",
+         "data": "0,1"
+      },{
+         "field": "Vulnerability Gather data sampling:",
+         "data": "Unknown: Dependent on hypervisor status"
+      },{
+         "field": "Vulnerability Ghostwrite:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Indirect target selection:",
+         "data": "Mitigation; Aligned branch/return thunks"
+      },{
+         "field": "Vulnerability Itlb multihit:",
+         "data": "KVM: Mitigation: VMX unsupported"
+      },{
+         "field": "Vulnerability L1tf:",
+         "data": "Mitigation; PTE Inversion"
+      },{
+         "field": "Vulnerability Mds:",
+         "data": "Mitigation; Clear CPU buffers; SMT Host state unknown"
+      },{
+         "field": "Vulnerability Meltdown:",
+         "data": "Mitigation; PTI"
+      },{
+         "field": "Vulnerability Mmio stale data:",
+         "data": "Mitigation; Clear CPU buffers; SMT Host state unknown"
+      },{
+         "field": "Vulnerability Reg file data sampling:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Retbleed:",
+         "data": "Vulnerable"
+      },{
+         "field": "Vulnerability Spec rstack overflow:",
+         "data": "Not affected"
+      },{
+         "field": "Vulnerability Spec store bypass:",
+         "data": "Vulnerable"
+      },{
+         "field": "Vulnerability Spectre v1:",
+         "data": "Mitigation; usercopy/swapgs barriers and __user pointer sanitization"
+      },{
+         "field": "Vulnerability Spectre v2:",
+         "data": "Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline"
+      },{
+         "field": "Vulnerability Srbds:",
+         "data": "Unknown: Dependent on hypervisor status"
+      },{
+         "field": "Vulnerability Tsx async abort:",
+         "data": "Not affected"
+      }
+   ]
+}
